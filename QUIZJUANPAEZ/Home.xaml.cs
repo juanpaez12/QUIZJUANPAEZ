@@ -60,7 +60,7 @@ namespace QUIZJUANPAEZ
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Thank you for accepting the terms and conditions, you can continue");
+            MessageBox.Show("Thanks for the donation, it will be very helpful");
         }
     }
 }
