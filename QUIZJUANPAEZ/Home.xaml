@@ -22,13 +22,13 @@
         <Button Name="btnLogout" Content="LogOut" HorizontalAlignment="Left" Margin="41,298,0,0" VerticalAlignment="Top" Width="62" Click="btnLogout_Click_1" />
         <ComboBox Name="cmbItms"  HorizontalAlignment="Left" Height="25" Margin="161,175,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="5" AutomationProperties.ItemType="" Visibility="Visible" />
         <Label Content="Category" HorizontalAlignment="Left" Height="24" Margin="46,116,0,0" VerticalAlignment="Top" Width="84" FontSize="10"/>
-        <ListBox Name="lstdata" HorizontalAlignment="Left" Height="312" Margin="466,10,0,0" VerticalAlignment="Top" Width="286"/>
+        <ListBox Name="lstdata" HorizontalAlignment="Left" Height="312" Margin="505,10,0,0" VerticalAlignment="Top" Width="247"/>
         <Label Name="lblCategory" Visibility="Hidden" Content="Label" HorizontalAlignment="Left" Height="39" Margin="41,161,0,0" VerticalAlignment="Top" Width="89"/>
-        <RadioButton GroupName="category" Content="With Bag" HorizontalAlignment="Left" Margin="171,116,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
-        <RadioButton GroupName="category" Content="Without bag" HorizontalAlignment="Left" Margin="171,149,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
-        <Label Name="lblcbox" Content="Rings" Visibility="Hidden" HorizontalAlignment="Left" Height="38" Margin="344,192,0,0" VerticalAlignment="Top" Width="69"/>
+        <RadioButton GroupName="category" Content="With Bag" HorizontalAlignment="Left" Margin="161,116,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
+        <RadioButton GroupName="category" Content="Without bag" HorizontalAlignment="Left" Margin="161,149,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
+        <Label Name="lblcbox" Content="" Visibility="Hidden" HorizontalAlignment="Left" Height="38" Margin="344,192,0,0" VerticalAlignment="Top" Width="69"/>
         <Label Content="Clothes" HorizontalAlignment="Left" Height="24" Margin="161,21,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="accept terms and conditions" HorizontalAlignment="Left" Height="19" Margin="161,211,0,0" VerticalAlignment="Top" Width="178" Unchecked="CheckBox_Unchecked" />
+        <CheckBox Content="you want to make a donation to the foundation" HorizontalAlignment="Left" Height="25" Margin="161,211,0,0" VerticalAlignment="Top" Width="346" Checked="CheckBox_Checked" FontStyle="Oblique" FontStretch="Expanded" FontWeight="Regular" FontSize="10"/>
 
     </Grid>
 </Page>

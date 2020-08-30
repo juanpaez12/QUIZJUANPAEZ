@@ -57,9 +57,10 @@ namespace QUIZJUANPAEZ
             }
         }
 
-        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Warning if you do not accept you will not be able to continue");
+            MessageBox.Show("Thank you for accepting the terms and conditions, you can continue");
         }
     }
 }
