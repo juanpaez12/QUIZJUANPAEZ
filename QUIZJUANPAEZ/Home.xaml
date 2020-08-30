@@ -9,6 +9,25 @@
       Title="Home" Background="#FFB4C1FB">
 
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF98A0F0" Offset="0.178"/>
+                <GradientStop Color="#FF5374AE" Offset="0.465"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="41,61,0,0" VerticalAlignment="Top" Width="93"/>
+        <TextBox Name="txtProductName" HorizontalAlignment="Left" Margin="161,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Height="21" Margin="161,236,0,0" VerticalAlignment="Top" Width="120" Click="btnSave_Click"/>
+        <Button Name="btnLogout" Content="LogOut" HorizontalAlignment="Left" Margin="41,298,0,0" VerticalAlignment="Top" Width="62" Click="btnLogout_Click_1" />
+        <ComboBox Name="cmbItms"  HorizontalAlignment="Left" Height="25" Margin="161,175,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="5" AutomationProperties.ItemType="" Visibility="Visible" />
+        <Label Content="Category" HorizontalAlignment="Left" Height="24" Margin="46,116,0,0" VerticalAlignment="Top" Width="84" FontSize="10"/>
+        <ListBox Name="lstdata" HorizontalAlignment="Left" Height="312" Margin="466,10,0,0" VerticalAlignment="Top" Width="286"/>
+        <Label Name="lblCategory" Visibility="Hidden" Content="Label" HorizontalAlignment="Left" Height="39" Margin="41,161,0,0" VerticalAlignment="Top" Width="89"/>
+        <RadioButton GroupName="category" Content="With Bag" HorizontalAlignment="Left" Margin="171,116,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
+        <RadioButton GroupName="category" Content="Without bag" HorizontalAlignment="Left" Margin="171,149,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
+        <Label Name="lblcbox" Content="Rings" Visibility="Hidden" HorizontalAlignment="Left" Height="38" Margin="344,192,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Clothes" HorizontalAlignment="Left" Height="24" Margin="161,21,0,0" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Page>
