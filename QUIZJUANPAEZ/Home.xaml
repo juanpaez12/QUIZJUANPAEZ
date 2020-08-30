@@ -28,6 +28,7 @@
         <RadioButton GroupName="category" Content="Without bag" HorizontalAlignment="Left" Margin="171,149,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"  />
         <Label Name="lblcbox" Content="Rings" Visibility="Hidden" HorizontalAlignment="Left" Height="38" Margin="344,192,0,0" VerticalAlignment="Top" Width="69"/>
         <Label Content="Clothes" HorizontalAlignment="Left" Height="24" Margin="161,21,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="accept terms and conditions" HorizontalAlignment="Left" Height="19" Margin="161,211,0,0" VerticalAlignment="Top" Width="178" Unchecked="CheckBox_Unchecked" />
 
     </Grid>
 </Page>

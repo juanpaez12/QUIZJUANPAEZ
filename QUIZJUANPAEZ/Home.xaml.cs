@@ -57,5 +57,9 @@ namespace QUIZJUANPAEZ
             }
         }
 
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Warning if you do not accept you will not be able to continue");
+        }
     }
 }
