@@ -17,6 +17,5 @@ namespace QUIZJUANPAEZ
         {
             frameMain.NavigationService.Navigate(new Login());
         }
-
     }
 }
